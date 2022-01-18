@@ -1,9 +1,8 @@
-import "./styles.css";
+import React from "react";
+import Form from "./FormContainer";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-    </div>
-  );
+function App() {
+  return <Form />;
 }
+
+export default App;
